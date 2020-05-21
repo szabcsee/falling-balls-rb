@@ -1,0 +1,80 @@
+body {
+    background: radial-gradient(
+            circle at top right,
+            #16222A, #3A6073
+    )
+}
+.main {
+    background: white;
+    box-shadow: 5px -10px 15px -5px rgba(255, 255, 255, 0.1);
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid #242424;
+    border-radius: 15px;
+}
+.toolbar {
+    background: radial-gradient(
+            at top left,
+            #16222A, #242424
+    );
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 70px;
+    padding: 10px;
+}
+#button {
+    background: radial-gradient(
+            at top left,
+            #527fb0, #131a47
+    );
+    border: none;
+    color: white;
+    display: block;
+    font-size: 1em;
+    height: 40px;
+    width: 120px;
+    margin: 0px auto;
+    border-radius: 10px;
+    outline: none;
+}
+#button:hover {
+    background: radial-gradient(
+            at top left,
+            #131a47, #527fb0
+    );
+}
+span.numberDisplay {
+    color: white;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 50%;
+    padding: 10px 0px;
+    text-align: center;
+}
+.board {
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+}
+.ballElement {
+    border-radius: 200px;
+    height: 200px;
+    list-style: none;
+    margin: 5px auto;
+    padding: 0;
+    width: 200px;
+}
+.blue {
+    background: radial-gradient(#5bcfe7, #3fbced);
+}
+.green {
+    background: radial-gradient(circle, #83ff46, #44e021 150px);
+}
+.purple {
+    background: radial-gradient(#735ed4, #4527cc);
+}
+.pink {
+    background: radial-gradient(#FFBFF1, #ee3aff);
+}
